@@ -1,11 +1,12 @@
-import Title from "./assets/Title"
-
-
+import Hello from "./assets/Hello";
+import Message from "./assets/Message";
 function App() {
-
-  return(
-    <Title/>
-  )
+  return (
+    <>
+      <Hello />
+      <Message />
+    </>
+  );
 }
 
-export default App
+export default App;
